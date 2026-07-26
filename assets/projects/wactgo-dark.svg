@@ -1,33 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="290" viewBox="0 0 1000 290" role="img" aria-labelledby="title desc">
   <title id="title">WACTGO Publisher</title>
-  <desc id="desc">A quiet dark project card showing an open publication spread beside the project name and technologies.</desc>
+  <desc id="desc">Dark project card for a web publishing and content platform built with HTML, CSS, and JavaScript.</desc>
   <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1320"/>
+      <stop offset="1" stop-color="#121928"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#66e4ff"/>
+      <stop offset="1" stop-color="#9df0c7"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#213349" stroke-width="1"/>
+    </pattern>
     <style>
-      .ui{font-family:"Segoe UI",Arial,sans-serif}
-      .mono{font-family:Consolas,"Courier New",monospace}
+      text{font-family:"Courier New", Courier, monospace}
     </style>
   </defs>
-
-  <rect x=".5" y=".5" width="899" height="279" rx="6" fill="#1a1c1c" stroke="#393d3c"/>
-  <path d="M292 34V246" stroke="#393d3c"/>
-
-  <g transform="translate(46 48) rotate(-2 106 84)">
-    <path d="M10 20Q62 8 106 28V182Q62 161 10 174Z" fill="#222525" stroke="#777772" stroke-width="1.2"/>
-    <path d="M106 28Q151 8 210 20V174Q154 161 106 182Z" fill="#202222" stroke="#777772" stroke-width="1.2"/>
-    <path d="M106 29V181" stroke="#666963"/>
-    <text class="mono" x="28" y="50" font-size="11" fill="#bd806b">WACTGO</text>
-    <path d="M28 65H83M28 78H91M28 91H73M28 116H88M28 128H82M28 140H94" stroke="#b7b5ad" stroke-width="2" stroke-linecap="round"/>
-    <rect x="128" y="45" width="54" height="44" fill="#69645b"/>
-    <path d="M128 106H187M128 119H179M128 132H190M128 145H170" stroke="#b7b5ad" stroke-width="2" stroke-linecap="round"/>
-    <path d="M194 7l9 7M199 2l-1 13" stroke="#bd806b" stroke-width="1.4" stroke-linecap="round"/>
+  <rect x="1" y="1" width="998" height="288" rx="14" fill="url(#bg)" stroke="#263b55" stroke-width="2"/>
+  <rect x="1" y="1" width="998" height="288" rx="14" fill="url(#grid)" opacity="0.45"/>
+  <g transform="translate(58 48)">
+    <rect x="0" y="0" width="250" height="168" rx="8" fill="#101c2e" stroke="#36516f"/>
+    <rect x="22" y="24" width="96" height="120" rx="4" fill="#182840" stroke="#68e0ff"/>
+    <path d="M44 45H96M44 62H100M44 79H88M44 112H98" stroke="#9df0c7" stroke-width="3" stroke-linecap="round"/>
+    <rect x="134" y="24" width="84" height="18" rx="3" fill="#66e4ff" opacity="0.82"/>
+    <rect x="134" y="58" width="92" height="8" rx="4" fill="#7895b8"/>
+    <rect x="134" y="78" width="72" height="8" rx="4" fill="#546f91"/>
+    <rect x="134" y="98" width="102" height="8" rx="4" fill="#546f91"/>
+    <rect x="134" y="126" width="58" height="18" rx="9" fill="#263b55" stroke="#9df0c7"/>
+    <path d="M18 168C54 145 86 184 123 160S198 141 246 166" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-dasharray="360" stroke-dashoffset="360">
+      <animate attributeName="stroke-dashoffset" values="360;0;0" dur="5s" repeatCount="indefinite"/>
+    </path>
   </g>
-
-  <g transform="translate(330 0)">
-    <text class="mono" x="0" y="53" font-size="13" fill="#bf826e">web publishing / frontend</text>
-    <text class="ui" x="0" y="100" font-size="37" font-weight="650" fill="#eeeae1">WACTGO Publisher</text>
-    <text class="ui" x="0" y="144" font-size="18" fill="#c2c2bb">A publisher website with pages for books, people,</text>
-    <text class="ui" x="0" y="170" font-size="18" fill="#c2c2bb">subscriptions, and longer article content.</text>
-    <path d="M0 202H500" stroke="#393d3c"/>
-    <text class="mono" x="0" y="230" font-size="16" fill="#90a3a5">HTML · CSS · JavaScript</text>
+  <g transform="translate(360 56)">
+    <text class="mono" x="0" y="0" font-size="13" fill="#7f98b7">01 / Selected Work</text>
+    <text class="ui" x="0" y="46" font-size="34" font-weight="700" fill="#f5f9ff">WACTGO Publisher</text>
+    <text class="ui" x="0" y="82" font-size="16" fill="#b9c8da">Publisher and content presentation website with</text>
+    <text class="ui" x="0" y="106" font-size="16" fill="#b9c8da">pages for works, team, subscriptions, and articles.</text>
+    <g class="ui" font-size="12" font-weight="600">
+      <rect x="0" y="134" width="112" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
+      <text x="56" y="152" text-anchor="middle" fill="#cfe4ff">Web Publishing</text>
+      <rect x="124" y="134" width="120" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
+      <text x="184" y="152" text-anchor="middle" fill="#cfe4ff">Content Platform</text>
+      <rect x="256" y="134" width="132" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
+      <text x="322" y="152" text-anchor="middle" fill="#cfe4ff">Responsive Design</text>
+      <rect x="400" y="134" width="154" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
+      <text x="477" y="152" text-anchor="middle" fill="#cfe4ff">Frontend Development</text>
+    </g>
+    <text class="mono" x="0" y="198" font-size="14" fill="#9df0c7">HTML · CSS · JavaScript</text>
   </g>
 </svg>
