@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">CHOU CHUAN CHUAN - Physics · Scientific Visualization · Web Systems</title>
+  <desc id="desc">A dark scientific visualization header with orbit paths, particles, a grid, and animated data curves.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09111f"/>
+      <stop offset="0.52" stop-color="#0f1a2a"/>
+      <stop offset="1" stop-color="#141827"/>
+    </linearGradient>
+    <linearGradient id="curve" x1="170" y1="228" x2="1060" y2="228" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#65e4ff"/>
+      <stop offset="0.5" stop-color="#9df0c7"/>
+      <stop offset="1" stop-color="#b8a7ff"/>
+    </linearGradient>
+    <radialGradient id="star" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#9df0c7"/>
+      <stop offset="1" stop-color="#3ba6ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#243853" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label{font-family:Segoe UI,Inter,Arial,sans-serif;letter-spacing:7px;font-weight:700}
+      .sub{font-family:Segoe UI,Inter,Arial,sans-serif;letter-spacing:1.8px;font-weight:500}
+      .tiny{font-family:Consolas,Menlo,monospace;letter-spacing:1px}
+    </style>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)" opacity="0.75"/>
+  <path d="M0 256C126 219 237 271 360 230C501 183 590 248 726 210C870 170 972 205 1200 150" fill="none" stroke="#203858" stroke-width="2" opacity="0.7"/>
+  <g opacity="0.48">
+    <path d="M82 72H310M892 74H1118M96 254H342M846 247H1106" stroke="#6aa6ff" stroke-width="1"/>
+    <path d="M98 72v38M294 72v22M906 74v34M1102 74v22M112 254v-24M326 254v-32M862 247v-30M1088 247v-20" stroke="#6aa6ff" stroke-width="1"/>
+  </g>
+  <g transform="translate(232 160)">
+    <ellipse rx="156" ry="48" fill="none" stroke="#65e4ff" stroke-width="1.7" opacity="0.72">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse rx="114" ry="32" fill="none" stroke="#b8a7ff" stroke-width="1.2" opacity="0.5" transform="rotate(-18)">
+      <animateTransform attributeName="transform" type="rotate" from="-18" to="342" dur="22s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle r="18" fill="url(#star)" filter="url(#softGlow)" opacity="0.95"/>
+    <circle cx="146" cy="0" r="5" fill="#9df0c7" filter="url(#softGlow)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g transform="translate(905 160)" opacity="0.95">
+    <circle r="76" fill="none" stroke="#314866" stroke-width="1.2"/>
+    <circle r="44" fill="none" stroke="#314866" stroke-width="1"/>
+    <path d="M-96 22C-62 -18 -22 -33 14 -14C52 7 70 5 98 -24" fill="none" stroke="#9df0c7" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 11">
+      <animate attributeName="stroke-dashoffset" from="0" to="-64" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="-54" cy="-40" r="3.4" fill="#65e4ff"/>
+    <circle cx="64" cy="50" r="4" fill="#b8a7ff"/>
+  </g>
+  <g filter="url(#softGlow)">
+    <path d="M170 235C240 205 286 246 350 219S465 183 536 213S645 254 716 218S850 179 940 206S1014 239 1060 220" fill="none" stroke="url(#curve)" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="980" stroke-dashoffset="980">
+      <animate attributeName="stroke-dashoffset" values="980;0;0" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g>
+    <text x="600" y="132" text-anchor="middle" class="label" font-size="42" fill="#f3f8ff">CHOU CHUAN CHUAN</text>
+    <text x="600" y="172" text-anchor="middle" class="sub" font-size="18" fill="#9fb8d8">Physics · Scientific Visualization · Web Systems</text>
+    <text x="600" y="286" text-anchor="middle" class="tiny" font-size="12" fill="#6f87a7">orbit / signal / model / interface</text>
+  </g>
+</svg>
