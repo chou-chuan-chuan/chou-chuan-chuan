@@ -21,25 +21,34 @@ I work across physics, numerical thinking, visual interface design, and web arch
 
 <a href="https://github.com/chou-chuan-chuan/wactgo_publisher">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/wactgo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/projects/wactgo-light.svg">
-    <img alt="WACTGO Publisher project card" src="assets/projects/wactgo-light.svg" width="100%">
+    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/wactgo-mobile-dark.svg?v=4">
+    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/wactgo-mobile-light.svg?v=4">
+    <source media="(max-width: 768px)" srcset="assets/projects/wactgo-mobile-light.svg?v=4">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/wactgo-dark.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="assets/projects/wactgo-light.svg?v=4">
+    <img alt="WACTGO Publisher project card" src="assets/projects/wactgo-light.svg?v=4" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/chou-chuan-chuan/exoplanet_transit_simulation">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/exoplanet-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/projects/exoplanet-light.svg">
-    <img alt="Exoplanet Transit Simulator project card" src="assets/projects/exoplanet-light.svg" width="100%">
+    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/exoplanet-mobile-dark.svg?v=4">
+    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/exoplanet-mobile-light.svg?v=4">
+    <source media="(max-width: 768px)" srcset="assets/projects/exoplanet-mobile-light.svg?v=4">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/exoplanet-dark.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="assets/projects/exoplanet-light.svg?v=4">
+    <img alt="Exoplanet Transit Simulator project card" src="assets/projects/exoplanet-light.svg?v=4" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/chou-chuan-chuan/pastexamweb_phy">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/pastexam-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/projects/pastexam-light.svg">
-    <img alt="NTHU Physics Past Exam Platform project card" src="assets/projects/pastexam-light.svg" width="100%">
+    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/pastexam-mobile-dark.svg?v=4">
+    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/pastexam-mobile-light.svg?v=4">
+    <source media="(max-width: 768px)" srcset="assets/projects/pastexam-mobile-light.svg?v=4">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/pastexam-dark.svg?v=4">
+    <source media="(prefers-color-scheme: light)" srcset="assets/projects/pastexam-light.svg?v=4">
+    <img alt="NTHU Physics Past Exam Platform project card" src="assets/projects/pastexam-light.svg?v=4" width="100%">
   </picture>
 </a>
 
