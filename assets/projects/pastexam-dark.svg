@@ -41,8 +41,8 @@
   <g transform="translate(360 56)">
     <text class="mono" x="0" y="0" font-size="13" fill="#7f98b7">03 / Selected Work</text>
     <text class="ui" x="0" y="46" font-size="32" font-weight="700" fill="#f5f9ff">NTHU Physics Past Exam Platform</text>
-    <text class="ui" x="0" y="82" font-size="16" fill="#b9c8da">Course search, filters, PDF or image preview,</text>
-    <text class="ui" x="0" y="106" font-size="16" fill="#b9c8da">discussion features, and full deployment architecture.</text>
+    <text class="ui" x="0" y="82" font-size="17" font-weight="700" fill="#b9c8da">Course search, filters, PDF or image preview,</text>
+    <text class="ui" x="0" y="106" font-size="17" font-weight="700" fill="#b9c8da">discussion features, and full deployment architecture.</text>
     <g class="ui" font-size="12" font-weight="600">
       <rect x="0" y="134" width="176" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
       <text x="88" y="152" text-anchor="middle" fill="#cfe4ff">Information Architecture</text>
