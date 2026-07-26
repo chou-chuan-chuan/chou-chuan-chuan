@@ -1,58 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="290" viewBox="0 0 1000 290" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-labelledby="title desc">
   <title id="title">Exoplanet Transit Simulator</title>
-  <desc id="desc">Dark project card for an interactive exoplanet transit simulator with orbit controls and light curves.</desc>
+  <desc id="desc">A dark project card with a small transit sketch, light curve, project description, and technologies.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1320"/>
-      <stop offset="1" stop-color="#121928"/>
-    </linearGradient>
-    <radialGradient id="star" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#fff5cc"/>
-      <stop offset="0.45" stop-color="#ffd676"/>
-      <stop offset="1" stop-color="#ff9c4a" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="curve" x1="38" y1="194" x2="278" y2="194" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#65e4ff"/>
-      <stop offset="1" stop-color="#b8a7ff"/>
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#213349" stroke-width="1"/>
-    </pattern>
     <style>
-      .ui{font-family:Segoe UI,Inter,Arial,sans-serif}
-      .mono{font-family:Consolas,Menlo,monospace}
+      .ui{font-family:"Segoe UI",Arial,sans-serif}
+      .mono{font-family:Consolas,"Courier New",monospace}
     </style>
   </defs>
-  <rect x="1" y="1" width="998" height="288" rx="14" fill="url(#bg)" stroke="#263b55" stroke-width="2"/>
-  <rect x="1" y="1" width="998" height="288" rx="14" fill="url(#grid)" opacity="0.45"/>
-  <g transform="translate(52 40)">
-    <circle cx="116" cy="86" r="62" fill="url(#star)"/>
-    <circle cx="116" cy="86" r="41" fill="#ffcf6c" opacity="0.82"/>
-    <ellipse cx="138" cy="86" rx="112" ry="40" fill="none" stroke="#58718f" stroke-width="1.4"/>
-    <circle cx="190" cy="86" r="13" fill="#111827" stroke="#65e4ff" stroke-width="2">
-      <animate attributeName="cx" values="42;190;268;42" dur="7s" repeatCount="indefinite"/>
+
+  <rect x=".5" y=".5" width="899" height="279" rx="6" fill="#181b1d" stroke="#383e3f"/>
+  <path d="M304 30V250" stroke="#383e3f"/>
+
+  <g transform="translate(42 36)">
+    <ellipse cx="118" cy="75" rx="108" ry="36" transform="rotate(-7 118 75)" fill="none" stroke="#71888a" stroke-width="1.2"/>
+    <circle cx="102" cy="75" r="38" fill="#b59458"/>
+    <circle cx="102" cy="75" r="27" fill="none" stroke="#d0b172" opacity=".55"/>
+    <circle cx="208" cy="62" r="10" fill="#d9ddda">
+      <animate attributeName="cx" values="18;208;236;18" dur="8s" repeatCount="indefinite"/>
     </circle>
-    <path d="M38 194H278" stroke="#38516f" stroke-width="1"/>
-    <path d="M38 176C88 176 94 214 116 214S144 176 278 176" fill="none" stroke="url(#curve)" stroke-width="3" stroke-linecap="round" stroke-dasharray="360" stroke-dashoffset="360">
-      <animate attributeName="stroke-dashoffset" values="360;0;0" dur="5.5s" repeatCount="indefinite"/>
-    </path>
-    <text class="mono" x="38" y="225" font-size="11" fill="#7f98b7">normalized flux</text>
+    <path d="M14 161V208H236" fill="none" stroke="#4e5555"/>
+    <path d="M14 174C64 174 79 175 91 182C101 188 102 201 116 201C130 201 131 188 141 182C154 175 179 174 236 174" fill="none" stroke="#84a5a7" stroke-width="2.3" stroke-linecap="round"/>
+    <text class="mono" x="17" y="228" font-size="11" fill="#989e9d">normalized flux</text>
+    <path d="M224 28l10 3M230 23l-2 11" stroke="#b77b63" stroke-width="1.2" stroke-linecap="round"/>
   </g>
-  <g transform="translate(360 56)">
-    <text class="mono" x="0" y="0" font-size="13" fill="#7f98b7">02 / Selected Work</text>
-    <text class="ui" x="0" y="46" font-size="34" font-weight="700" fill="#f5f9ff">Exoplanet Transit Simulator</text>
-    <text class="ui" x="0" y="82" font-size="16" fill="#b9c8da">Interactive transit modeling with orbital parameters,</text>
-    <text class="ui" x="0" y="106" font-size="16" fill="#b9c8da">radius ratio, inclination, limb darkening, and sampling.</text>
-    <g class="ui" font-size="12" font-weight="600">
-      <rect x="0" y="134" width="96" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
-      <text x="48" y="152" text-anchor="middle" fill="#cfe4ff">Astrophysics</text>
-      <rect x="108" y="134" width="116" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
-      <text x="166" y="152" text-anchor="middle" fill="#cfe4ff">Transit Modeling</text>
-      <rect x="236" y="134" width="92" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
-      <text x="282" y="152" text-anchor="middle" fill="#cfe4ff">Light Curves</text>
-      <rect x="340" y="134" width="152" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
-      <text x="416" y="152" text-anchor="middle" fill="#cfe4ff">Scientific Visualization</text>
-    </g>
-    <text class="mono" x="0" y="198" font-size="14" fill="#9df0c7">JavaScript · Canvas API · Numerical Simulation</text>
+
+  <g transform="translate(342 0)">
+    <text class="mono" x="0" y="44" font-size="13" fill="#86a0a2">astrophysics / interactive model</text>
+    <text class="ui" x="0" y="86" font-size="34" font-weight="650" fill="#eeeae1">Exoplanet Transit</text>
+    <text class="ui" x="0" y="123" font-size="34" font-weight="650" fill="#eeeae1">Simulator</text>
+    <text class="ui" x="0" y="160" font-size="17" fill="#c0c4c1">Adjust orbital and stellar parameters, then compare</text>
+    <text class="ui" x="0" y="184" font-size="17" fill="#c0c4c1">the transit animation with its light curve.</text>
+    <path d="M0 207H510" stroke="#383e3f"/>
+    <text class="mono" x="0" y="236" font-size="15" fill="#8fa4a5">JavaScript · Canvas API · numerical simulation</text>
   </g>
 </svg>

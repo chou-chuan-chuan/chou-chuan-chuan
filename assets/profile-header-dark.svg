@@ -1,74 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">CHOU CHUAN CHUAN - Physics · Scientific Visualization · Web Systems</title>
-  <desc id="desc">A dark scientific visualization header with orbit paths, particles, a grid, and animated data curves.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">周全全 / CHOU CHUAN CHUAN</title>
+  <desc id="desc">A quiet dark research-notebook header with a handwritten Chinese name, an orbital sketch, and a measured light curve.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#09111f"/>
-      <stop offset="0.52" stop-color="#0f1a2a"/>
-      <stop offset="1" stop-color="#141827"/>
-    </linearGradient>
-    <linearGradient id="curve" x1="170" y1="228" x2="1060" y2="228" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#65e4ff"/>
-      <stop offset="0.5" stop-color="#9df0c7"/>
-      <stop offset="1" stop-color="#b8a7ff"/>
-    </linearGradient>
-    <radialGradient id="star" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.35" stop-color="#9df0c7"/>
-      <stop offset="1" stop-color="#3ba6ff" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" fill="none" stroke="#243853" stroke-width="1" opacity="0.55"/>
-    </pattern>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="3.8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
     <style>
-      .label{font-family:Segoe UI,Inter,Arial,sans-serif;letter-spacing:7px;font-weight:700}
-      .sub{font-family:Segoe UI,Inter,Arial,sans-serif;letter-spacing:1.8px;font-weight:500}
-      .tiny{font-family:Consolas,Menlo,monospace;letter-spacing:1px}
+      .ui{font-family:"Segoe UI",Arial,sans-serif}
+      .mono{font-family:Consolas,"Courier New",monospace}
     </style>
   </defs>
-  <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#grid)" opacity="0.75"/>
-  <path d="M0 256C126 219 237 271 360 230C501 183 590 248 726 210C870 170 972 205 1200 150" fill="none" stroke="#203858" stroke-width="2" opacity="0.7"/>
-  <g opacity="0.48">
-    <path d="M82 72H310M892 74H1118M96 254H342M846 247H1106" stroke="#6aa6ff" stroke-width="1"/>
-    <path d="M98 72v38M294 72v22M906 74v34M1102 74v22M112 254v-24M326 254v-32M862 247v-30M1088 247v-20" stroke="#6aa6ff" stroke-width="1"/>
+
+  <rect width="1000" height="300" fill="#171a1b"/>
+  <path d="M44 54H606M44 104H606M44 254H606" fill="none" stroke="#383d3d" stroke-width="1" opacity=".75"/>
+  <path d="M50 34V266" fill="none" stroke="#9b6657" stroke-width="1" opacity=".4"/>
+  <path d="M64 274C196 270 326 279 464 272C535 269 590 270 635 274" fill="none" stroke="#77766f" stroke-width="1" opacity=".5"/>
+
+  <path d="M482 11Q458 45 463 53Q471 56 475 56Q482 56 486.0 51.5Q490 47 495 36Q512 6 526 8L532 11Q533 12 533.0 15.5Q533 19 534 24L536 45Q537 48 537 139L538 233Q538 415 544 443Q546 465 546 502V537V612L539 622Q533 628 529.0 629.5Q525 631 514 631Q488 631 453.0 624.5Q418 618 407 611L379 597Q346 581 341 578Q327 568 309 562Q256 535 244 525Q235 516 231 516Q226 516 222 529Q221 534 220 539Q220 550 227 557Q238 571 269 587L299 602Q318 611 327 617Q333 623 342.0 626.5Q351 630 361 633Q372 635 384 639L421 650Q464 661 489 666Q525 670 533 670Q556 670 566.5 662.0Q577 654 586 633Q589 622 592 611L591 571L585 434Q578 311 579 244Q583 232 583 182Q583 145 581.5 106.5Q580 68 579 34L577 -10Q568 -30 542 -30Q509 -30 482 11ZM116 36Q107 36 101.5 43.0Q96 50 97 61Q108 135 114 198Q120 264 131 329Q133 335 133 344Q132 357 131 370Q125 433 116 468Q109 497 112 505Q114 510 120 511Q127 513 130 516Q137 521 141 521Q146 521 149 512Q153 500 159 456Q163 418 167 405Q168 400 168 373Q168 347 166.5 319.5Q165 292 163 283Q156 241 145 107Q143 60 137 51Q130 36 116 36ZM295 124Q295 128 292 138Q290 150 290 155Q290 164 294 184Q299 211 299 226Q302 266 304 286Q305 296 311 299Q319 304 325 304Q336 304 340 288Q345 275 350 275Q352 275 360 279Q371 287 384.5 291.5Q398 296 411 296Q426 296 436 290Q454 281 454 254Q454 225 434 199Q425 187 425 182Q425 177 434 177Q442 177 447 178L459 180Q472 180 472 169Q472 160 461.0 152.0Q450 144 429 136Q418 131 403.5 127.5Q389 124 380 122Q369 119 358.0 116.5Q347 114 341 114Q337 114 333.5 114.0Q330 114 329 113Q326 112 326 107Q326 100 321.0 96.0Q316 92 309 92Q302 92 297.0 96.0Q292 100 291 107Q291 111 293.0 115.5Q295 120 295 124ZM348 157Q355 157 371.0 176.0Q387 195 400.0 218.5Q413 242 413 253Q413 260 402 260Q395 260 391 256L374 241Q354 225 354 217Q338 187 333 163L332 160Q332 155 339 155Q342 155 348 157ZM266 368Q266 375 272 379Q276 383 296 390Q315 396 320.0 400.5Q325 405 326.0 416.0Q327 427 329 434Q336 452 336 463Q336 473 328 473Q320 473 311 469Q304 466 296 466Q286 466 279.0 471.5Q272 477 272 485Q272 493 278 499Q307 519 318 519Q328 519 332.0 523.0Q336 527 339 542Q339 552 345.5 559.0Q352 566 361 566Q367 566 372 562Q376 559 376 551V543Q376 539 377.0 536.0Q378 533 381 533Q384 533 390 536Q443 560 446 556L454 550Q457 546 457 540Q457 528 445 520Q434 513 426.0 510.0Q418 507 414 505Q409 501 393 494Q379 488 375.0 482.5Q371 477 370 463Q370 458 369 453Q369 448 368 442L367 437Q367 426 382 426Q389 427 416 440Q433 449 445 451H448Q454 451 457 445Q462 433 440 415Q419 396 374 378L335 364Q321 358 307.5 353.5Q294 349 283 349Q276 351 271.0 356.5Q266 362 266 368ZM954 -3Q954 7 959 11Q966 20 974.0 23.0Q982 26 998 26Q1073 26 1104 32L1116 35V49V58Q1116 64 1118.0 66.0Q1120 68 1129 72Q1135 75 1136 89L1141 152V175V184Q1141 191 1139.5 191.5Q1138 192 1132 190L1130 189Q1128 188 1124.5 186.5Q1121 185 1116 182L1098 172Q1088 166 1079 166Q1064 166 1064 189Q1062 203 1067.0 209.5Q1072 216 1085 218L1124 232Q1135 239 1140.0 246.5Q1145 254 1145 266Q1148 284 1153.0 298.5Q1158 313 1164 330Q1170 333 1178 333Q1189 333 1195 330Q1200 325 1200 320Q1198 308 1195 295V291Q1195 283 1198 283Q1207 285 1216 302L1219 307Q1220 313 1227.0 317.5Q1234 322 1242 318Q1252 317 1255.5 312.0Q1259 307 1256 301Q1252 292 1244.5 283.0Q1237 274 1233 268Q1229 262 1209 246Q1188 228 1184 218Q1182 213 1180.5 174.0Q1179 135 1179 78L1178 54Q1216 55 1314 69Q1409 84 1441 87L1452 88Q1472 88 1476 79Q1478 73 1478 68Q1478 55 1471.0 45.0Q1464 35 1452 35Q1446 35 1440 38Q1434 39 1421 39Q1387 39 1332 28Q1278 17 1232 15Q1200 12 1174 4Q1144 -6 1076 -15L1050 -18L971 -29Q964 -30 959.0 -21.5Q954 -13 954 -3ZM833 231Q827 231 820 235Q814 241 814 248Q814 255 819.0 261.5Q824 268 836 280Q856 300 859 310L909 377Q942 421 960.5 448.0Q979 475 991 505Q1011 556 1024 581Q1042 615 1059 648L1082 691Q1089 704 1103.0 719.5Q1117 735 1122 735Q1123 735 1130 742Q1137 749 1143 749Q1152 749 1152 734Q1152 714 1139 702Q1129 696 1073 589Q1060 571 1040 526L1020 480L1011 459Q1006 442 952 373Q930 345 914.0 322.5Q898 300 893 290Q879 267 863.5 250.0Q848 233 838 231ZM1053 352Q1053 364 1068.0 373.0Q1083 382 1100 382Q1114 387 1142 400Q1173 414 1185 418Q1211 427 1223 427Q1238 427 1244 413Q1249 401 1237.5 391.5Q1226 382 1205 381Q1184 378 1155 361Q1121 344 1107 342Q1102 342 1088.0 338.0Q1074 334 1068 334Q1062 334 1059 337Q1053 345 1053 352ZM1352 543Q1345 550 1339 551L1287 559Q1221 576 1173 584Q1133 591 1110 600Q1105 603 1107 608Q1110 616 1118 623L1130 636L1145 634L1169 628Q1189 621 1221 613Q1283 594 1308 596Q1323 594 1351 586L1392 577Q1418 576 1418 558Q1418 544 1402 530L1382 532Q1368 533 1363.0 534.5Q1358 536 1352 543ZM1854 -3Q1854 7 1859 11Q1866 20 1874.0 23.0Q1882 26 1898 26Q1973 26 2004 32L2016 35V49V58Q2016 64 2018.0 66.0Q2020 68 2029 72Q2035 75 2036 89L2041 152V175V184Q2041 191 2039.5 191.5Q2038 192 2032 190L2030 189Q2028 188 2024.5 186.5Q2021 185 2016 182L1998 172Q1988 166 1979 166Q1964 166 1964 189Q1962 203 1967.0 209.5Q1972 216 1985 218L2024 232Q2035 239 2040.0 246.5Q2045 254 2045 266Q2048 284 2053.0 298.5Q2058 313 2064 330Q2070 333 2078 333Q2089 333 2095 330Q2100 325 2100 320Q2098 308 2095 295V291Q2095 283 2098 283Q2107 285 2116 302L2119 307Q2120 313 2127.0 317.5Q2134 322 2142 318Q2152 317 2155.5 312.0Q2159 307 2156 301Q2152 292 2144.5 283.0Q2137 274 2133 268Q2129 262 2109 246Q2088 228 2084 218Q2082 213 2080.5 174.0Q2079 135 2079 78L2078 54Q2116 55 2214 69Q2309 84 2341 87L2352 88Q2372 88 2376 79Q2378 73 2378 68Q2378 55 2371.0 45.0Q2364 35 2352 35Q2346 35 2340 38Q2334 39 2321 39Q2287 39 2232 28Q2178 17 2132 15Q2100 12 2074 4Q2044 -6 1976 -15L1950 -18L1871 -29Q1864 -30 1859.0 -21.5Q1854 -13 1854 -3ZM1733 231Q1727 231 1720 235Q1714 241 1714 248Q1714 255 1719.0 261.5Q1724 268 1736 280Q1756 300 1759 310L1809 377Q1842 421 1860.5 448.0Q1879 475 1891 505Q1911 556 1924 581Q1942 615 1959 648L1982 691Q1989 704 2003.0 719.5Q2017 735 2022 735Q2023 735 2030 742Q2037 749 2043 749Q2052 749 2052 734Q2052 714 2039 702Q2029 696 1973 589Q1960 571 1940 526L1920 480L1911 459Q1906 442 1852 373Q1830 345 1814.0 322.5Q1798 300 1793 290Q1779 267 1763.5 250.0Q1748 233 1738 231ZM1953 352Q1953 364 1968.0 373.0Q1983 382 2000 382Q2014 387 2042 400Q2073 414 2085 418Q2111 427 2123 427Q2138 427 2144 413Q2149 401 2137.5 391.5Q2126 382 2105 381Q2084 378 2055 361Q2021 344 2007 342Q2002 342 1988.0 338.0Q1974 334 1968 334Q1962 334 1959 337Q1953 345 1953 352ZM2252 543Q2245 550 2239 551L2187 559Q2121 576 2073 584Q2033 591 2010 600Q2005 603 2007 608Q2010 616 2018 623L2030 636L2045 634L2069 628Q2089 621 2121 613Q2183 594 2208 596Q2223 594 2251 586L2292 577Q2318 576 2318 558Q2318 544 2302 530L2282 532Q2268 533 2263.0 534.5Q2258 536 2252 543Z" transform="translate(64 126) scale(.1 -.1)" fill="#eeeae1"/>
+  <text class="ui" x="64" y="164" font-size="25" font-weight="600" fill="#eeeae1">CHOU CHUAN CHUAN</text>
+  <text class="ui" x="64" y="207" font-size="19" fill="#c2c4bd">I make small simulations to see how physical models behave.</text>
+  <text class="mono" x="64" y="242" font-size="14" fill="#90a3a5">physics / scientific visualization / web systems</text>
+
+  <g transform="translate(797 120)">
+    <ellipse rx="126" ry="39" transform="rotate(-8)" fill="none" stroke="#789092" stroke-width="1.4"/>
+    <ellipse rx="82" ry="25" transform="rotate(13)" fill="none" stroke="#474d4d" stroke-width="1"/>
+    <circle r="34" fill="#b5965e"/>
+    <circle r="25" fill="none" stroke="#d1b477" stroke-width="1" opacity=".55"/>
+    <g transform="rotate(-8)">
+      <circle cx="118" cy="0" r="8" fill="#d9ddda">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <path d="M-151 -52l12 4M-148 -61l4 12M130 51l13 3M137 45l-2 13" stroke="#a86d59" stroke-width="1.2" stroke-linecap="round"/>
   </g>
-  <g transform="translate(232 160)">
-    <ellipse rx="156" ry="48" fill="none" stroke="#65e4ff" stroke-width="1.7" opacity="0.72">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse rx="114" ry="32" fill="none" stroke="#b8a7ff" stroke-width="1.2" opacity="0.5" transform="rotate(-18)">
-      <animateTransform attributeName="transform" type="rotate" from="-18" to="342" dur="22s" repeatCount="indefinite"/>
-    </ellipse>
-    <circle r="18" fill="url(#star)" filter="url(#softGlow)" opacity="0.95"/>
-    <circle cx="146" cy="0" r="5" fill="#9df0c7" filter="url(#softGlow)">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-  <g transform="translate(905 160)" opacity="0.95">
-    <circle r="76" fill="none" stroke="#314866" stroke-width="1.2"/>
-    <circle r="44" fill="none" stroke="#314866" stroke-width="1"/>
-    <path d="M-96 22C-62 -18 -22 -33 14 -14C52 7 70 5 98 -24" fill="none" stroke="#9df0c7" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 11">
-      <animate attributeName="stroke-dashoffset" from="0" to="-64" dur="5s" repeatCount="indefinite"/>
-    </path>
-    <circle cx="-54" cy="-40" r="3.4" fill="#65e4ff"/>
-    <circle cx="64" cy="50" r="4" fill="#b8a7ff"/>
-  </g>
-  <g filter="url(#softGlow)">
-    <path d="M170 235C240 205 286 246 350 219S465 183 536 213S645 254 716 218S850 179 940 206S1014 239 1060 220" fill="none" stroke="url(#curve)" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="980" stroke-dashoffset="980">
-      <animate attributeName="stroke-dashoffset" values="980;0;0" dur="6s" repeatCount="indefinite"/>
-    </path>
-  </g>
-  <g>
-    <text x="600" y="132" text-anchor="middle" class="label" font-size="42" fill="#f3f8ff">CHOU CHUAN CHUAN</text>
-    <text x="600" y="172" text-anchor="middle" class="sub" font-size="18" fill="#9fb8d8">Physics · Scientific Visualization · Web Systems</text>
-    <text x="600" y="286" text-anchor="middle" class="tiny" font-size="12" fill="#6f87a7">orbit / signal / model / interface</text>
+
+  <g transform="translate(662 211)">
+    <path d="M0 0V52H286" fill="none" stroke="#515655" stroke-width="1"/>
+    <path d="M0 12C62 12 84 13 105 17C126 22 132 43 147 43C164 43 168 22 190 17C216 11 245 12 286 12" fill="none" stroke="#86a5a7" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M73 48V52M147 48V52M221 48V52" stroke="#515655"/>
+    <text class="mono" x="-8" y="-9" font-size="11" fill="#9a9e98">F / F0</text>
+    <text class="mono" x="247" y="71" font-size="11" fill="#9a9e98">time</text>
   </g>
 </svg>

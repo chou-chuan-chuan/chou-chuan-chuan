@@ -1,23 +1,20 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg">
-  <img alt="CHOU CHUAN CHUAN - Physics · Scientific Visualization · Web Systems" src="assets/profile-header-light.svg" width="100%">
+  <img alt="周全全 / CHOU CHUAN CHUAN - Physics, Scientific Visualization, Web Systems" src="assets/profile-header-light.svg" width="100%">
 </picture>
 
-## 01 / Profile
+## About
 
-Physics student building scientific simulations, interactive visualizations, and accessible web systems.
+I'm a physics student who likes turning physical ideas into small simulations I can adjust, plot, and inspect in the browser. Most of what I build sits somewhere between numerical experiments, frontend work, and practical tools for other students.
+
+I usually work in this order:
 
 ```text
-Physics          -> understand the system
-Simulation       -> model the system
-Visualization    -> reveal the behavior
-Web              -> make it accessible
+understand the physics -> make a model -> look at the behavior -> make it usable
 ```
 
-I work across physics, numerical thinking, visual interface design, and web architecture. My projects focus on turning structured scientific or educational systems into interactive tools that are easier to explore, inspect, and use.
-
-## 02 / Selected Work
+## Selected projects
 
 <a href="https://github.com/chou-chuan-chuan/wactgo_publisher">
   <picture>
@@ -43,26 +40,23 @@ I work across physics, numerical thinking, visual interface design, and web arch
   </picture>
 </a>
 
-## 03 / Current Direction
+### Currently exploring
 
-- Building interactive scientific simulations
-- Improving the NTHU Physics Past Exam Platform
-- Developing clearer scientific visualization interfaces
+- Building interactive models for physics and astronomy
+- Improving search, preview, and maintenance work for the NTHU Physics Past Exam Platform
+- Making scientific plots and controls easier to read
 - Learning maintainable full-stack architecture and deployment
-- Connecting physics, computation, and usable web experiences
+- Finding practical ways to connect physics, computation, and the web
 
-## 04 / Tech Stack
+## Tools I use
 
-**Scientific and visual systems**  
-JavaScript · Canvas API · Numerical Simulation · Scientific Visualization
+**For simulations and visual work:** JavaScript, Canvas API, numerical methods
 
-**Frontend**  
-HTML · CSS · Vue 3 · TypeScript · Responsive Design
+**For interfaces:** HTML, CSS, Vue 3, TypeScript
 
-**Backend and deployment**  
-FastAPI · PostgreSQL · Redis · Docker · Full-Stack Architecture
+**For full-stack projects:** FastAPI, PostgreSQL, Redis, Docker
 
-## 05 / Contact
+### Contact
 
 - GitHub: [github.com/chou-chuan-chuan](https://github.com/chou-chuan-chuan)
 - Email: [ycchou@gapp.nthu.edu.tw](mailto:ycchou@gapp.nthu.edu.tw)

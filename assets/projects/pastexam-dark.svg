@@ -1,59 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="290" viewBox="0 0 1000 290" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-labelledby="title desc">
   <title id="title">NTHU Physics Past Exam Platform</title>
-  <desc id="desc">Dark project card for a full-stack NTHU Physics past exam platform with search, preview, discussion, and deployment architecture.</desc>
+  <desc id="desc">A dark project card showing a search field, documents, and a small database diagram beside the project details.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1320"/>
-      <stop offset="1" stop-color="#121928"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#65e4ff"/>
-      <stop offset="1" stop-color="#b8a7ff"/>
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#213349" stroke-width="1"/>
-    </pattern>
     <style>
-      .ui{font-family:Segoe UI,Inter,Arial,sans-serif}
-      .mono{font-family:Consolas,Menlo,monospace}
+      .ui{font-family:"Segoe UI",Arial,sans-serif}
+      .mono{font-family:Consolas,"Courier New",monospace}
     </style>
   </defs>
-  <rect x="1" y="1" width="998" height="288" rx="14" fill="url(#bg)" stroke="#263b55" stroke-width="2"/>
-  <rect x="1" y="1" width="998" height="288" rx="14" fill="url(#grid)" opacity="0.45"/>
-  <g transform="translate(58 42)">
-    <rect x="0" y="0" width="252" height="176" rx="9" fill="#101c2e" stroke="#36516f"/>
-    <rect x="20" y="20" width="132" height="28" rx="14" fill="#17263a" stroke="#65e4ff"/>
-    <circle cx="38" cy="34" r="6" fill="none" stroke="#9df0c7" stroke-width="2"/>
-    <path d="M43 39L51 47" stroke="#9df0c7" stroke-width="2" stroke-linecap="round"/>
-    <rect x="20" y="66" width="80" height="88" rx="5" fill="#17263a" stroke="#5b7598"/>
-    <path d="M36 86H82M36 104H76M36 122H88" stroke="#8aa5c7" stroke-width="3" stroke-linecap="round"/>
-    <rect x="118" y="66" width="112" height="24" rx="5" fill="#1d3048" stroke="#5b7598"/>
-    <rect x="118" y="102" width="112" height="52" rx="5" fill="#17263a" stroke="#5b7598"/>
-    <path d="M136 125H214M136 140H194" stroke="#8aa5c7" stroke-width="3" stroke-linecap="round"/>
-    <g transform="translate(168 22)">
-      <ellipse cx="32" cy="12" rx="32" ry="12" fill="none" stroke="#b8a7ff" stroke-width="2"/>
-      <path d="M0 12v35c0 6.6 14.3 12 32 12s32-5.4 32-12V12" fill="none" stroke="#b8a7ff" stroke-width="2"/>
-      <path d="M0 30c0 6.6 14.3 12 32 12s32-5.4 32-12" fill="none" stroke="#b8a7ff" stroke-width="2" opacity="0.75"/>
+
+  <rect x=".5" y=".5" width="899" height="279" rx="6" fill="#191c1c" stroke="#393e3d"/>
+  <path d="M292 32V248" stroke="#393e3d"/>
+
+  <g transform="translate(43 38)">
+    <rect x="19" y="22" width="188" height="164" rx="4" fill="#222525" stroke="#747a77"/>
+    <rect x="0" y="0" width="160" height="164" rx="4" fill="#202323" stroke="#77817f"/>
+    <rect x="20" y="20" width="120" height="28" rx="3" fill="#282b2b" stroke="#789092"/>
+    <circle cx="37" cy="34" r="6" fill="none" stroke="#87a5a6" stroke-width="1.8"/>
+    <path d="M41 39l7 7" stroke="#87a5a6" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M23 70H112M23 87H129M23 104H95M23 132H118" stroke="#aaaea9" stroke-width="2.2" stroke-linecap="round"/>
+    <rect x="178" y="42" width="60" height="66" rx="3" fill="#2a2e2d" stroke="#717a78"/>
+    <path d="M190 58H226M190 72H220M190 86H230" stroke="#a9aea9" stroke-width="2" stroke-linecap="round"/>
+    <g transform="translate(174 127)">
+      <ellipse cx="32" cy="10" rx="32" ry="10" fill="#303534" stroke="#87a5a6"/>
+      <path d="M0 10v35c0 5.5 14.3 10 32 10s32-4.5 32-10V10M0 28c0 5.5 14.3 10 32 10s32-4.5 32-10" fill="none" stroke="#87a5a6"/>
     </g>
-    <path d="M18 176C60 154 88 188 128 164S206 143 244 168" fill="none" stroke="url(#accent)" stroke-width="2.5" stroke-dasharray="360" stroke-dashoffset="360">
-      <animate attributeName="stroke-dashoffset" values="360;0;0" dur="5.2s" repeatCount="indefinite"/>
-    </path>
+    <path d="M226 116l9 5M232 111l-2 12" stroke="#b97b62" stroke-width="1.2" stroke-linecap="round"/>
   </g>
-  <g transform="translate(360 56)">
-    <text class="mono" x="0" y="0" font-size="13" fill="#7f98b7">03 / Selected Work</text>
-    <text class="ui" x="0" y="46" font-size="34" font-weight="700" fill="#f5f9ff">NTHU Physics Past Exam Platform</text>
-    <text class="ui" x="0" y="82" font-size="16" fill="#b9c8da">Course search, filters, PDF or image preview,</text>
-    <text class="ui" x="0" y="106" font-size="16" fill="#b9c8da">discussion features, and full deployment architecture.</text>
-    <g class="ui" font-size="12" font-weight="600">
-      <rect x="0" y="134" width="148" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
-      <text x="74" y="152" text-anchor="middle" fill="#cfe4ff">Information Architecture</text>
-      <rect x="160" y="134" width="118" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
-      <text x="219" y="152" text-anchor="middle" fill="#cfe4ff">Document Preview</text>
-      <rect x="290" y="134" width="138" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
-      <text x="359" y="152" text-anchor="middle" fill="#cfe4ff">Full-Stack Development</text>
-      <rect x="440" y="134" width="112" height="26" rx="13" fill="#1c2d43" stroke="#385775"/>
-      <text x="496" y="152" text-anchor="middle" fill="#cfe4ff">Student Platform</text>
-    </g>
-    <text class="mono" x="0" y="198" font-size="14" fill="#9df0c7">Vue 3 · TypeScript · FastAPI · PostgreSQL · Redis · Docker</text>
+
+  <g transform="translate(330 0)">
+    <text class="mono" x="0" y="42" font-size="13" fill="#88a0a1">student platform / full stack</text>
+    <text class="ui" x="0" y="82" font-size="32" font-weight="650" fill="#eeeae1">NTHU Physics Past Exam</text>
+    <text class="ui" x="0" y="118" font-size="32" font-weight="650" fill="#eeeae1">Platform</text>
+    <text class="ui" x="0" y="156" font-size="17" fill="#c0c3be">Search and preview course materials, with discussion</text>
+    <text class="ui" x="0" y="180" font-size="17" fill="#c0c3be">features and a deployable backend.</text>
+    <path d="M0 201H520" stroke="#393e3d"/>
+    <text class="mono" x="0" y="226" font-size="15" fill="#90a3a4">Vue 3 · TypeScript · FastAPI</text>
+    <text class="mono" x="0" y="248" font-size="15" fill="#90a3a4">PostgreSQL · Redis · Docker</text>
   </g>
 </svg>
