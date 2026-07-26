@@ -1,71 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc" style="overflow:hidden">
   <title id="title">CHOU CHUAN CHUAN - Physics · Scientific Visualization · Web Systems</title>
-  <desc id="desc">A light scientific visualization header with orbit paths, particles, a grid, and animated data curves.</desc>
+  <desc id="desc">A light scientific signal visualization with a source particle, sampled coordinate field, transmission line, and observation node.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f7fbff"/>
       <stop offset="0.55" stop-color="#eef6fb"/>
       <stop offset="1" stop-color="#f6f2ff"/>
     </linearGradient>
-    <linearGradient id="curve" x1="170" y1="228" x2="1060" y2="228" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#087c9f"/>
-      <stop offset="0.5" stop-color="#16875f"/>
-      <stop offset="1" stop-color="#6550c9"/>
+    <linearGradient id="signal" x1="112" y1="218" x2="1060" y2="218" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5c89a7"/>
+      <stop offset="0.72" stop-color="#2b9989"/>
+      <stop offset="1" stop-color="#7563b7"/>
     </linearGradient>
-    <radialGradient id="star" cx="50%" cy="50%" r="50%">
+    <radialGradient id="sourceGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#42b883" stop-opacity="0.58"/>
+      <stop offset="0.3" stop-color="#42b883" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#42b883" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sampleFade" cx="112" cy="218" r="108" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.35" stop-color="#42b883"/>
-      <stop offset="1" stop-color="#1684c7" stop-opacity="0"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" fill="none" stroke="#cad9e8" stroke-width="1" opacity="0.85"/>
+      <path d="M44 0H0V44" fill="none" stroke="#cad9e8" stroke-width="1" opacity="0.58"/>
     </pattern>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="3.2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <pattern id="samples" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.35" fill="#5d86ad" opacity="0.58"/>
+    </pattern>
+    <mask id="sampleMask" maskUnits="userSpaceOnUse" x="18" y="124" width="204" height="188">
+      <rect x="18" y="124" width="204" height="188" fill="url(#sampleFade)"/>
+    </mask>
+    <filter id="sourceBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4"/>
     </filter>
     <style>
       text{font-family:"Courier New", Courier, monospace}
       .label{letter-spacing:7px;font-weight:700}
       .sub{letter-spacing:1.8px;font-weight:500}
       .tiny{letter-spacing:1px}
+      .source-glow{animation:source-breathe 5.2s ease-in-out infinite}
+      .detector-pulse{animation:detector-breathe 6s ease-in-out infinite}
+      @keyframes source-breathe{0%,100%{opacity:.18}50%{opacity:.38}}
+      @keyframes detector-breathe{0%,100%{opacity:.1}50%{opacity:.26}}
+      @media (prefers-reduced-motion: reduce){
+        .source-glow,.detector-pulse{animation:none}
+      }
+      @media (max-width:640px){
+        .sample-field{opacity:.55}
+        .signal-path{opacity:.54}
+      }
     </style>
   </defs>
   <rect width="1200" height="320" fill="url(#bg)"/>
-  <rect width="1200" height="320" fill="url(#grid)" opacity="0.9"/>
-  <path d="M0 256C126 219 237 271 360 230C501 183 590 248 726 210C870 170 972 205 1200 150" fill="none" stroke="#b7cbe0" stroke-width="2" opacity="0.95"/>
-  <g opacity="0.62">
-    <path d="M82 72H310M892 74H1118M96 254H342M846 247H1106" stroke="#6a8eb8" stroke-width="1"/>
-    <path d="M98 72v38M294 72v22M906 74v34M1102 74v22M112 254v-24M326 254v-32M862 247v-30M1088 247v-20" stroke="#6a8eb8" stroke-width="1"/>
-  </g>
-  <g transform="translate(232 160)">
-    <ellipse rx="156" ry="48" fill="none" stroke="#087c9f" stroke-width="1.7" opacity="0.72">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse rx="114" ry="32" fill="none" stroke="#6550c9" stroke-width="1.2" opacity="0.48" transform="rotate(-18)">
-      <animateTransform attributeName="transform" type="rotate" from="-18" to="342" dur="22s" repeatCount="indefinite"/>
-    </ellipse>
-    <circle r="18" fill="url(#star)" filter="url(#softGlow)" opacity="0.95"/>
-    <circle cx="146" cy="0" r="5" fill="#16875f" filter="url(#softGlow)">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-  <g transform="translate(905 160)" opacity="0.95">
-    <circle r="76" fill="none" stroke="#b4c7db" stroke-width="1.2"/>
-    <circle r="44" fill="none" stroke="#c5d5e3" stroke-width="1"/>
-    <path d="M-96 22C-62 -18 -22 -33 14 -14C52 7 70 5 98 -24" fill="none" stroke="#16875f" stroke-width="3" stroke-linecap="round" stroke-dasharray="5 11">
-      <animate attributeName="stroke-dashoffset" from="0" to="-64" dur="5s" repeatCount="indefinite"/>
-    </path>
-    <circle cx="-54" cy="-40" r="3.4" fill="#087c9f"/>
-    <circle cx="64" cy="50" r="4" fill="#6550c9"/>
-  </g>
-  <g filter="url(#softGlow)">
-    <path d="M170 235C240 205 286 246 350 219S465 183 536 213S645 254 716 218S850 179 940 206S1014 239 1060 220" fill="none" stroke="url(#curve)" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="980" stroke-dashoffset="980">
-      <animate attributeName="stroke-dashoffset" values="980;0;0" dur="6s" repeatCount="indefinite"/>
-    </path>
+  <g aria-hidden="true" pointer-events="none">
+    <rect width="1200" height="320" fill="url(#grid)" opacity="0.62"/>
+    <rect class="sample-field" x="18" y="124" width="204" height="188" fill="url(#samples)" mask="url(#sampleMask)"/>
+    <path class="signal-path" d="M112 218H816C834 218 840 202 856 202S878 234 894 234S916 206 932 206S954 228 970 228S992 212 1008 212S1026 218 1043 218" fill="none" stroke="url(#signal)" stroke-width="1.45" stroke-linecap="round" opacity="0.68" vector-effect="non-scaling-stroke"/>
+    <circle class="source-glow" cx="112" cy="218" r="29" fill="url(#sourceGlow)" filter="url(#sourceBlur)" opacity="0.28"/>
+    <circle cx="112" cy="218" r="8" fill="none" stroke="#16875f" stroke-width="1" opacity="0.24"/>
+    <circle cx="112" cy="218" r="4.8" fill="#16875f"/>
+    <circle class="detector-pulse" cx="1060" cy="218" r="24" fill="none" stroke="#66849f" stroke-width="1" opacity="0.16"/>
+    <circle cx="1060" cy="218" r="15" fill="none" stroke="#647f98" stroke-width="1.15" opacity="0.46"/>
+    <circle cx="1060" cy="218" r="3.8" fill="#087c9f"/>
+    <circle cx="1104" cy="218" r="3.5" fill="#6550c9" opacity="0.78"/>
   </g>
   <g>
     <text x="600" y="132" text-anchor="middle" class="label" font-size="42" fill="#142033">CHOU CHUAN CHUAN</text>
