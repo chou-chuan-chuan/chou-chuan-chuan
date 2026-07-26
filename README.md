@@ -4,6 +4,21 @@
   <img alt="CHOU CHUAN CHUAN - Physics · Scientific Visualization · Web Systems" src="assets/profile-header-light.svg?v=2" width="100%">
 </picture>
 
+## 01 / Profile
+
+Physics student building scientific simulations, interactive visualizations, and accessible web systems.
+
+```text
+Physics          -> understand the system
+Simulation       -> model the system
+Visualization    -> reveal the behavior
+Web              -> make it accessible
+```
+
+I work across physics, numerical thinking, visual interface design, and web architecture. My projects focus on turning structured scientific or educational systems into interactive tools that are easier to explore, inspect, and use.
+
+## 02 / Selected Work
+
 <a href="https://github.com/chou-chuan-chuan/wactgo_publisher">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/projects/wactgo-dark.svg">
