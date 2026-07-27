@@ -36,7 +36,7 @@
       <rect x="176" y="172" width="124" height="26" rx="13" fill="transparent" stroke="#8c959f"/>
       <text x="238" y="190" text-anchor="middle" fill="#24292f">Student Platform</text>
     </g>
-    <text class="mono" x="0" y="286" font-size="16" fill="#1a7f64">Vue 3 · TypeScript · FastAPI · PostgreSQL</text>
-    <text class="mono" x="0" y="310" font-size="16" fill="#1a7f64">· Redis · Docker</text>
+    <text class="mono" x="0" y="286" font-size="14" font-weight="550" fill="#24292f">Vue 3 · TypeScript · FastAPI · PostgreSQL</text>
+    <text class="mono" x="0" y="310" font-size="14" font-weight="550" fill="#24292f">· Redis · Docker</text>
   </g>
 </svg>
