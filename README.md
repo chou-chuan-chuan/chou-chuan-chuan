@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg?v=2">
-  <img alt="CHOU CHUAN CHUAN - Physics · Scientific Visualization · Web Systems" src="assets/profile-header-light.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg?v=3">
+  <img alt="CHOU CHUAN CHUAN - Physics · Scientific Visualization · Web Systems" src="assets/profile-header-light.svg?v=3" width="100%">
 </picture>
 
 ## 01 / Profile
@@ -21,36 +21,42 @@ I work across physics, numerical thinking, visual interface design, and web arch
 
 <a href="https://github.com/chou-chuan-chuan/wactgo_publisher">
   <picture>
-    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/wactgo-mobile-dark.svg?v=4">
-    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/wactgo-mobile-light.svg?v=4">
-    <source media="(max-width: 768px)" srcset="assets/projects/wactgo-mobile-light.svg?v=4">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/wactgo-dark.svg?v=4">
-    <source media="(prefers-color-scheme: light)" srcset="assets/projects/wactgo-light.svg?v=4">
-    <img alt="WACTGO Publisher project card" src="assets/projects/wactgo-light.svg?v=4" width="100%">
+    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/wactgo-mobile-dark.svg?v=5">
+    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/wactgo-mobile-light.svg?v=5">
+    <source media="(max-width: 768px)" srcset="assets/projects/wactgo-mobile-light.svg?v=5">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/wactgo-dark.svg?v=5">
+    <source media="(prefers-color-scheme: light)" srcset="assets/projects/wactgo-light.svg?v=5">
+    <img alt="WACTGO Publisher project card" src="assets/projects/wactgo-light.svg?v=5" width="100%">
   </picture>
 </a>
+
+<sub>Live: <a href="https://chou-chuan-chuan.github.io/wactgo_publisher/">https://chou-chuan-chuan.github.io/wactgo_publisher/</a></sub>
 
 <a href="https://github.com/chou-chuan-chuan/exoplanet_transit_simulation">
   <picture>
-    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/exoplanet-mobile-dark.svg?v=4">
-    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/exoplanet-mobile-light.svg?v=4">
-    <source media="(max-width: 768px)" srcset="assets/projects/exoplanet-mobile-light.svg?v=4">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/exoplanet-dark.svg?v=4">
-    <source media="(prefers-color-scheme: light)" srcset="assets/projects/exoplanet-light.svg?v=4">
-    <img alt="Exoplanet Transit Simulator project card" src="assets/projects/exoplanet-light.svg?v=4" width="100%">
+    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/exoplanet-mobile-dark.svg?v=5">
+    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/exoplanet-mobile-light.svg?v=5">
+    <source media="(max-width: 768px)" srcset="assets/projects/exoplanet-mobile-light.svg?v=5">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/exoplanet-dark.svg?v=5">
+    <source media="(prefers-color-scheme: light)" srcset="assets/projects/exoplanet-light.svg?v=5">
+    <img alt="Exoplanet Transit Simulator project card" src="assets/projects/exoplanet-light.svg?v=5" width="100%">
   </picture>
 </a>
 
+<sub>Live: <a href="https://chou-chuan-chuan.github.io/exoplanet_transit_simulation/">https://chou-chuan-chuan.github.io/exoplanet_transit_simulation/</a></sub>
+
 <a href="https://github.com/chou-chuan-chuan/pastexamweb_phy">
   <picture>
-    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/pastexam-mobile-dark.svg?v=4">
-    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/pastexam-mobile-light.svg?v=4">
-    <source media="(max-width: 768px)" srcset="assets/projects/pastexam-mobile-light.svg?v=4">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/pastexam-dark.svg?v=4">
-    <source media="(prefers-color-scheme: light)" srcset="assets/projects/pastexam-light.svg?v=4">
-    <img alt="NTHU Physics Past Exam Platform project card" src="assets/projects/pastexam-light.svg?v=4" width="100%">
+    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/pastexam-mobile-dark.svg?v=5">
+    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/pastexam-mobile-light.svg?v=5">
+    <source media="(max-width: 768px)" srcset="assets/projects/pastexam-mobile-light.svg?v=5">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/pastexam-dark.svg?v=5">
+    <source media="(prefers-color-scheme: light)" srcset="assets/projects/pastexam-light.svg?v=5">
+    <img alt="NTHU Physics Past Exam Platform project card" src="assets/projects/pastexam-light.svg?v=5" width="100%">
   </picture>
 </a>
+
+<sub>Live: <a href="https://physarchive.com/">https://physarchive.com/</a></sub>
 
 ## 03 / Current Direction
 
@@ -73,5 +79,5 @@ FastAPI · PostgreSQL · Redis · Docker · Full-Stack Architecture
 
 ## 05 / Contact
 
-- GitHub: [github.com/chou-chuan-chuan](https://github.com/chou-chuan-chuan)
+- GitHub: [https://github.com/chou-chuan-chuan](https://github.com/chou-chuan-chuan)
 - Email: [ycchou@gapp.nthu.edu.tw](mailto:ycchou@gapp.nthu.edu.tw)

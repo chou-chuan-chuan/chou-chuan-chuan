@@ -2,15 +2,10 @@
   <title id="title">CHOU CHUAN CHUAN - Physics · Scientific Visualization · Web Systems</title>
   <desc id="desc">A dark scientific signal visualization with a source particle, sampled coordinate field, transmission line, and observation node.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#09111f"/>
-      <stop offset="0.52" stop-color="#0f1a2a"/>
-      <stop offset="1" stop-color="#141827"/>
-    </linearGradient>
     <linearGradient id="signal" x1="112" y1="218" x2="1060" y2="218" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#77a9ca"/>
-      <stop offset="0.72" stop-color="#72d2ca"/>
-      <stop offset="1" stop-color="#aa9ad8"/>
+      <stop offset="0" stop-color="#8c959f"/>
+      <stop offset="0.72" stop-color="#56d364"/>
+      <stop offset="1" stop-color="#a371f7"/>
     </linearGradient>
     <radialGradient id="sourceGlow" cx="50%" cy="50%" r="50%">
       <stop offset="0" stop-color="#9df0c7" stop-opacity="0.72"/>
@@ -23,10 +18,10 @@
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" fill="none" stroke="#243853" stroke-width="1" opacity="0.28"/>
+      <path d="M44 0H0V44" fill="none" stroke="#6e7681" stroke-width="1" opacity="0.24"/>
     </pattern>
     <pattern id="samples" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.35" fill="#74a5cf" opacity="0.68"/>
+      <circle cx="2" cy="2" r="1.35" fill="#8c959f" opacity="0.58"/>
     </pattern>
     <mask id="sampleMask" maskUnits="userSpaceOnUse" x="18" y="124" width="204" height="188">
       <rect x="18" y="124" width="204" height="188" fill="url(#sampleFade)"/>
@@ -52,7 +47,7 @@
       }
     </style>
   </defs>
-  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="transparent"/>
   <g aria-hidden="true" pointer-events="none">
     <rect width="1200" height="320" fill="url(#grid)" opacity="0.58"/>
     <rect class="sample-field" x="18" y="124" width="204" height="188" fill="url(#samples)" mask="url(#sampleMask)"/>
@@ -60,14 +55,14 @@
     <circle class="source-glow" cx="112" cy="218" r="29" fill="url(#sourceGlow)" filter="url(#sourceBlur)" opacity="0.32"/>
     <circle cx="112" cy="218" r="8" fill="none" stroke="#86e2b5" stroke-width="1" opacity="0.26"/>
     <circle cx="112" cy="218" r="4.8" fill="#91e7b8"/>
-    <circle class="detector-pulse" cx="1060" cy="218" r="24" fill="none" stroke="#8eb0cb" stroke-width="1" opacity="0.2"/>
-    <circle cx="1060" cy="218" r="15" fill="none" stroke="#9db5cc" stroke-width="1.15" opacity="0.5"/>
-    <circle cx="1060" cy="218" r="3.8" fill="#8fd6ef"/>
-    <circle cx="1104" cy="218" r="3.5" fill="#b8a7ff" opacity="0.84"/>
+    <circle class="detector-pulse" cx="1060" cy="218" r="24" fill="none" stroke="#8c959f" stroke-width="1" opacity="0.2"/>
+    <circle cx="1060" cy="218" r="15" fill="none" stroke="#b1bac4" stroke-width="1.15" opacity="0.5"/>
+    <circle cx="1060" cy="218" r="3.8" fill="#58a6ff"/>
+    <circle cx="1104" cy="218" r="3.5" fill="#a371f7" opacity="0.84"/>
   </g>
   <g>
-    <text x="600" y="132" text-anchor="middle" class="label" font-size="42" fill="#f3f8ff">CHOU CHUAN CHUAN</text>
-    <text x="600" y="172" text-anchor="middle" class="sub" font-size="18" fill="#9fb8d8">Physics · Scientific Visualization · Web Systems</text>
-    <text x="600" y="286" text-anchor="middle" class="tiny" font-size="12" fill="#6f87a7">orbit / signal / model / interface</text>
+    <text x="600" y="132" text-anchor="middle" class="label" font-size="42" fill="#f0f6fc">CHOU CHUAN CHUAN</text>
+    <text x="600" y="172" text-anchor="middle" class="sub" font-size="18" fill="#b1bac4">Physics · Scientific Visualization · Web Systems</text>
+    <text x="600" y="286" text-anchor="middle" class="tiny" font-size="12" fill="#8c959f">orbit / signal / model / interface</text>
   </g>
 </svg>
