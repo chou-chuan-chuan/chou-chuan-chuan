@@ -47,7 +47,7 @@
       }
     </style>
   </defs>
-  <rect width="1200" height="320" fill="transparent"/>
+  <rect width="1200" height="320" fill="#ffffff"/>
   <g aria-hidden="true" pointer-events="none">
     <rect width="1200" height="320" fill="url(#grid)" opacity="0.58"/>
     <rect class="sample-field" x="18" y="124" width="204" height="188" fill="url(#samples)" mask="url(#sampleMask)"/>

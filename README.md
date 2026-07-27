@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-header-dark.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-header-light.svg?v=3">
-  <img alt="CHOU CHUAN CHUAN - Physics · Scientific Visualization · Web Systems" src="assets/profile-header-light.svg?v=3" width="100%">
-</picture>
+<img alt="CHOU CHUAN CHUAN - Physics · Scientific Visualization · Web Systems" src="assets/profile-header-light.svg?v=4" width="100%">
 
 ## 01 / Profile
 
@@ -19,44 +15,32 @@ I work across physics, numerical thinking, visual interface design, and web arch
 
 ## 02 / Selected Work
 
-<a href="https://github.com/chou-chuan-chuan/wactgo_publisher">
-  <picture>
-    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/wactgo-mobile-dark.svg?v=5">
-    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/wactgo-mobile-light.svg?v=5">
-    <source media="(max-width: 768px)" srcset="assets/projects/wactgo-mobile-light.svg?v=5">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/wactgo-dark.svg?v=5">
-    <source media="(prefers-color-scheme: light)" srcset="assets/projects/wactgo-light.svg?v=5">
-    <img alt="WACTGO Publisher project card" src="assets/projects/wactgo-light.svg?v=5" width="100%">
-  </picture>
-</a>
+<p>
+  <a href="https://github.com/chou-chuan-chuan/wactgo_publisher">
+    <picture>
+      <source media="(max-width: 768px)" srcset="assets/projects/wactgo-mobile-light.svg?v=6">
+      <img alt="WACTGO Publisher project card" src="assets/projects/wactgo-light.svg?v=6" width="100%">
+    </picture>
+  </a>
+</p>
 
-<sub>Live: <a href="https://chou-chuan-chuan.github.io/wactgo_publisher/">https://chou-chuan-chuan.github.io/wactgo_publisher/</a></sub>
+<p>
+  <a href="https://github.com/chou-chuan-chuan/exoplanet_transit_simulation">
+    <picture>
+      <source media="(max-width: 768px)" srcset="assets/projects/exoplanet-mobile-light.svg?v=6">
+      <img alt="Exoplanet Transit Simulator project card" src="assets/projects/exoplanet-light.svg?v=6" width="100%">
+    </picture>
+  </a>
+</p>
 
-<a href="https://github.com/chou-chuan-chuan/exoplanet_transit_simulation">
-  <picture>
-    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/exoplanet-mobile-dark.svg?v=5">
-    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/exoplanet-mobile-light.svg?v=5">
-    <source media="(max-width: 768px)" srcset="assets/projects/exoplanet-mobile-light.svg?v=5">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/exoplanet-dark.svg?v=5">
-    <source media="(prefers-color-scheme: light)" srcset="assets/projects/exoplanet-light.svg?v=5">
-    <img alt="Exoplanet Transit Simulator project card" src="assets/projects/exoplanet-light.svg?v=5" width="100%">
-  </picture>
-</a>
-
-<sub>Live: <a href="https://chou-chuan-chuan.github.io/exoplanet_transit_simulation/">https://chou-chuan-chuan.github.io/exoplanet_transit_simulation/</a></sub>
-
-<a href="https://github.com/chou-chuan-chuan/pastexamweb_phy">
-  <picture>
-    <source media="(max-width: 768px) and (prefers-color-scheme: dark)" srcset="assets/projects/pastexam-mobile-dark.svg?v=5">
-    <source media="(max-width: 768px) and (prefers-color-scheme: light)" srcset="assets/projects/pastexam-mobile-light.svg?v=5">
-    <source media="(max-width: 768px)" srcset="assets/projects/pastexam-mobile-light.svg?v=5">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/pastexam-dark.svg?v=5">
-    <source media="(prefers-color-scheme: light)" srcset="assets/projects/pastexam-light.svg?v=5">
-    <img alt="NTHU Physics Past Exam Platform project card" src="assets/projects/pastexam-light.svg?v=5" width="100%">
-  </picture>
-</a>
-
-<sub>Live: <a href="https://physarchive.com/">https://physarchive.com/</a></sub>
+<p>
+  <a href="https://github.com/NTHU-Physics-SA-IT/PastExamWeb_PHY">
+    <picture>
+      <source media="(max-width: 768px)" srcset="assets/projects/pastexam-mobile-light.svg?v=6">
+      <img alt="NTHU Physics Past Exam Platform project card" src="assets/projects/pastexam-light.svg?v=6" width="100%">
+    </picture>
+  </a>
+</p>
 
 ## 03 / Current Direction
 

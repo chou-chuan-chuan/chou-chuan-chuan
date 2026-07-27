@@ -12,7 +12,7 @@
       text{font-family:"Courier New", Courier, monospace}
     </style>
   </defs>
-  <rect x="1" y="1" width="598" height="718" rx="14" fill="transparent" stroke="#d0d7de" stroke-width="2"/>
+  <rect x="1" y="1" width="598" height="718" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
   <rect x="1" y="1" width="598" height="718" rx="14" fill="url(#grid)" opacity="0.18"/>
   <g transform="translate(40 36)">
     <rect x="0" y="0" width="520" height="325" rx="10" fill="transparent" stroke="#8c959f" stroke-opacity="0.55"/>
@@ -21,11 +21,12 @@
   </g>
   <g transform="translate(40 380)">
     <text class="ui" x="0" y="46" font-size="24" font-weight="700" fill="#1f2328">NTHU Physics Past Exam Platform</text>
-    <text class="ui" x="0" y="76" font-size="19" font-weight="700" fill="#424a53">Course search, filters, PDF or image</text>
-    <text class="ui" x="0" y="100" font-size="19" font-weight="700" fill="#424a53">preview, discussion features, and full</text>
-    <text class="ui" x="0" y="124" font-size="19" font-weight="700" fill="#424a53">deployment architecture.</text>
-    <text class="mono" x="0" y="147" font-size="10.5" font-weight="700" fill="#57606a">GitHub: https://github.com/chou-chuan-chuan/pastexamweb_phy</text>
-    <g class="ui" transform="translate(0 52)" font-size="13" font-weight="600">
+    <text class="ui" x="0" y="80" font-size="19" font-weight="700" fill="#424a53">Course search, filters, PDF or image</text>
+    <text class="ui" x="0" y="104" font-size="19" font-weight="700" fill="#424a53">preview, discussion features, and full</text>
+    <text class="ui" x="0" y="128" font-size="19" font-weight="700" fill="#424a53">deployment architecture.</text>
+    <text class="mono" x="0" y="154" font-size="10.5" font-weight="700" fill="#57606a">GitHub: https://github.com/NTHU-Physics-SA-IT/PastExamWeb_PHY</text>
+    <text class="mono" x="0" y="174" font-size="10.5" font-weight="700" fill="#57606a">Live: https://physarchive.com/</text>
+    <g class="ui" transform="translate(0 60)" font-size="13" font-weight="600">
       <rect x="0" y="134" width="176" height="26" rx="13" fill="transparent" stroke="#8c959f"/>
       <text x="88" y="152" text-anchor="middle" fill="#24292f">Information Architecture</text>
       <rect x="188" y="134" width="124" height="26" rx="13" fill="transparent" stroke="#8c959f"/>
@@ -35,7 +36,7 @@
       <rect x="176" y="172" width="124" height="26" rx="13" fill="transparent" stroke="#8c959f"/>
       <text x="238" y="190" text-anchor="middle" fill="#24292f">Student Platform</text>
     </g>
-    <text class="mono" x="0" y="258" font-size="16" fill="#1a7f64">Vue 3 · TypeScript · FastAPI · PostgreSQL</text>
-    <text class="mono" x="0" y="282" font-size="16" fill="#1a7f64">· Redis · Docker</text>
+    <text class="mono" x="0" y="286" font-size="16" fill="#1a7f64">Vue 3 · TypeScript · FastAPI · PostgreSQL</text>
+    <text class="mono" x="0" y="310" font-size="16" fill="#1a7f64">· Redis · Docker</text>
   </g>
 </svg>
