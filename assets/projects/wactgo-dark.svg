@@ -32,6 +32,6 @@
       <rect x="400" y="134" width="154" height="26" rx="13" fill="transparent" stroke="#8c959f"/>
       <text x="477" y="152" text-anchor="middle" fill="#24292f">Frontend Development</text>
     </g>
-    <text class="mono" x="0" y="220" font-size="14" fill="#1a7f64">HTML · CSS · JavaScript</text>
+    <text class="mono" x="0" y="220" font-size="14" font-weight="550" fill="#24292f">HTML · CSS · JavaScript</text>
   </g>
 </svg>
