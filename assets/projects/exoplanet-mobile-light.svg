@@ -33,6 +33,6 @@
       <rect x="104" y="172" width="184" height="26" rx="13" fill="transparent" stroke="#8c959f"/>
       <text x="196" y="190" text-anchor="middle" fill="#24292f">Scientific Visualization</text>
     </g>
-    <text class="mono" x="0" y="286" font-size="16" fill="#1a7f64">JavaScript · Canvas API · Numerical Simulation</text>
+    <text class="mono" x="0" y="286" font-size="14" font-weight="550" fill="#24292f">JavaScript · Canvas API · Numerical Simulation</text>
   </g>
 </svg>
